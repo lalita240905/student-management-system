@@ -3,7 +3,7 @@ function login(user) {
         return "Admin Dashboard";
     }
     if (user.role === "student") {
-        return "Student Dashboard";
+        return "Student Panel";
     }
     return "Unauthorized";
 }
